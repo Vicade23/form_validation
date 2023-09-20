@@ -37,7 +37,7 @@ document.getElementById("form").addEventListener("submit", (eventValue) => {
     }
 
     if(uname !== "" && email !== "" &&  password !== "" ){
-      
+      // you can now store the user data at this point
         console.log("Submitted values", {name, email, password})
     }
 })
