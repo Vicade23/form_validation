@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+
+    <div class="main"> 
+        <div class="form-container">
+            <div class="form-title">Register</div>
+            <form class="main-form" id="form">
+                <div class="form-item">
+                    <input type="text" name="name" id="name" class="form-input-element" placeholder="Your name">
+                    <div id="nameError" class="error"></div>
+                </div> 
+                <div class="form-item">
+                    <input type="email" name="email" id="email" class="form-input-element" placeholder="Your Email">
+                    <div id="emailError" class="error"></div>
+                </div>
+                <div class="form-item">
+                    <input type="password" name="password" id="password" class="form-input-element" placeholder="Your password"> 
+                    <div id="passwordError" class="error"></div>
+                </div> 
+                <button class="btn" type="submit">Register</button>
+            </form>
+        </div>
+    </div> 
     <script src="./js/script.js"></script>
 </body>
 </html>
