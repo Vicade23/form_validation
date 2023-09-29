@@ -52,4 +52,14 @@ document.getElementById('registerForm').addEventListener('submit', (eventValue) 
     
     window.location.href = "/login.html";
 
+<<<<<<< HEAD
 })
+=======
+    if(uname !== "" && email !== "" &&  password !== "" ){
+      // you can now store the user data at this point
+        console.log("Submitted values", {name, email, password})
+    }
+})
+
+ 
+>>>>>>> b77c41e6e2086d730efbe794adaa931982db09ee
