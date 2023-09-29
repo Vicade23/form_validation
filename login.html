@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body class="h-100">
+    <main class="h-100 container d-flex align-items-center justify-content-center">
+        <form id="loginForm" class="d-flex flex-column align-items-center w-50">
+
+            <input id="email" class="w-75 p-2 my-1" type="email" placeholder="Enter your email">
+            <div class="text-danger text-center" id="email2Error"></div>
+            <div class="text-success text-center" id="emaiError"></div>
+            <input id="password" class="w-75 p-2 my-1" type="password" placeholder="Enter your password">
+            <div id="password2Error" class="text-danger text-center"></div>
+            <div id="passworError" class="text-success text-center"></div>
+            <button class="w-75 p-2 my-1 border-1">Loggin</button>
+        </form>
+    </main>
+
+    <script src="/js/login.js" type="module"></script>
+</body>
+</html>

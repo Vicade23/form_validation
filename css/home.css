@@ -1,0 +1,19 @@
+main {
+  height: 100vh;
+}
+
+main #cont {
+  background-color: aquamarine;
+  width: 400px;
+  border: 1px solid grey;
+  box-shadow: 0 0 19px -4px;
+}
+
+main form input {
+  width: 90%;
+}
+
+main form button {
+  width: 90%;
+  background-color: blue;
+}/*# sourceMappingURL=home.css.map */

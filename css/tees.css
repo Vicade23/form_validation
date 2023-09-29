@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+body #free-worldwide-shipping {
+  font-size: 11.3px;
+}
+body header #hood-tee {
+  font-size: 9px;
+}
+body header #select1 {
+  font-size: 9px;
+}
+body header #home-tees {
+  font-size: 9px;
+}
+body header #tees {
+  font-size: 14.8px;
+}
+body header #filter {
+  font-size: 11.3px;
+}
+body header #items {
+  font-size: 11.3px;
+}
+body header #logo {
+  letter-spacing: 4px;
+}
+body main #tees-prod {
+  background: linear-gradient(120deg, rgb(196, 196, 196) 50%, white 50%);
+}
+body main #cloth-desc {
+  font-size: 11.3px;
+}
+body main #price {
+  font-size: 11.3px;
+}
+body footer {
+  background-color: rgb(0, 0, 0);
+}
+body footer #flexes {
+  height: 300px;
+  font-size: 11.3px;
+  width: 23%;
+}
+body footer #letter {
+  width: 31%;
+}
+body footer #foot-topics {
+  font-size: 9px;
+}
+body footer form button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body footer input {
+  color: rgb(236, 236, 236);
+  border: 1px solid black;
+}
+@media (max-width: 320px) {
+  body header select {
+    display: none;
+  }
+}/*# sourceMappingURL=tees.css.map */
